@@ -52,20 +52,3 @@ function addTwo(x) {
   
 
   
-//--- PIPES
-
-const addFive = (a) => a + 5;
-const mulTwo = (a) => a * 2;
-
-const addAndMulTwo = (x) => {
-    const temp = addFive(x);
-    return mulTwo(temp);
-}
-
-const Piped = (x) => {
-    return temp = addFive(x)
-    |> mulTwo(%);
-    //return mulTwo(temp);
-}
-
-console.log(addAndMulTwo(4));
